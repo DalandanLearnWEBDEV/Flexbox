@@ -1,0 +1,33 @@
+Using Row
+Main Axis - flex-direction: row - Horizontal
+Cross Axis - flex-direction: row - Vertical
+
+Using Column
+Main Axis - flex-direction: column - Vertical
+Cross Axis - flex-direction: column - Horizontal
+
+Shorcut:
+.class*3{Item $}
+
+Flex-direction: Row(Horizontal/default)
+Flex-direction: Column(Vertical)
+Justify content - Always for Main Axis
+Align items - Always for Cross Axis
+
+.item:nth-of-type(1) - select child
+
+order: 1 - visual order of flex item in the flex container
+
+Shorhand for flex
+flex: 1 1 250px;
+1 - grow
+1 - shrink
+250px - base
+
+Another Shorthand for flex
+flex: 1;
+
+1 - grow
+1 - shrink
+0 - base no starting size
+
